@@ -1,0 +1,262 @@
+@import url('./reset.css');
+@import url("https://use.typekit.net/ggy0dnn.css");
+@import url('https://fonts.googleapis.com/css2?family=Vesper+Libre&display=swap');
+body{
+    width: 100%;
+    height:auto;
+    background-color: #fff;
+    font-family: "myriad-pro", sans-serif;
+}
+/*
+header（大項目）
+---------------------*/
+header{
+    margin-bottom: 60px;
+}
+.title{
+    margin-top: 16px;
+    margin-bottom: 8px;
+    padding: 0 28px;
+    padding-bottom: 14px;
+    border-bottom: solid 1px #d0d0d0;
+}
+a.logo h1{
+    color: #404040;
+    font-size: 24px;
+    margin-bottom: 2px;
+    font-family: "bebas-neue", sans-serif;
+    font-style: normal;
+    font-weight: 100;
+}
+a.logo p{
+    color: #404040;
+    font-size: 10px;
+    font-family: "arial", sans-serif;
+}
+/*menu*/
+header ul.menu{
+    display: flex;
+    justify-content:center;
+    padding: 2px;
+    margin-bottom: 30px;
+}
+header li{
+    width: 60px;
+    height: 28px;
+    padding: 0px auto;
+    margin: 0 auto;
+    text-align: center;
+}
+li a{
+    font-size: 12px;
+    display: block;
+    width: 100%;
+    height: 100%;
+    color: #404040;
+    line-height: 28px;
+    text-decoration: none;
+}
+li a:hover{
+    background-color: #d45e5e;
+    color: #fff;
+    transition: 0.7s;
+}
+/*
+main（大項目）
+------------------------*/
+.main-contents{
+    position: relative;
+    background-color: #fff;
+    margin-bottom: 60px;
+    border-bottom: solid 1px #ded5d5;
+    box-shadow: 0px 6px 6px -5px rgba(53, 47, 47, 0.15); 
+}
+/*lorem-ipsum*/
+img.object{
+    display: block;
+    width: 8%;
+    height: 8%;
+    margin: auto;
+    margin-bottom: 20px;
+}
+.menu-p{
+    width: 80%;
+    font-size: 10px;
+    line-height: 20px;
+    text-align: center;
+    margin: auto;
+    margin-bottom: 12px;
+    font-family: 'Vesper Libre', serif;
+    font-style: italic;
+    color: #404040;
+}
+/*under-pencil*/
+.under-pencil{
+    position: absolute;
+    width: 68px;
+    height: 55px;
+    top: 76%;
+    left: 50%;
+    transform: translateX(-50%);
+    z-index: -1;
+}
+main{
+    width: 100%;
+    margin: 0 auto;
+    margin-bottom: 40px;
+}
+main h2{
+    color: #404040;
+    font-family: 'Vesper Libre', serif;
+    font-style: italic;
+    margin: 0 17px;
+    font-size: 14px;
+    margin-bottom: 20px;
+}
+main .inner{
+    padding: 0px 18px;
+}
+img.portfolio-image{
+    width: 100%;
+}
+.portfolio-contents{
+    margin: 0 18px;
+    margin-bottom: 25px;
+    width: calc(50% - 36px);
+}
+.portfolio-contents:nth-child(2n) {
+    margin-right: 0;
+}
+ul.portfolio-list{
+    display: flex;
+    flex-wrap: wrap;
+    text-align: center;
+}
+/* footer（大項目）
+--------------------------*/
+footer{
+    background-color: #d45e5e;
+    color: #fff;
+    width: 100%;
+}
+footer .profile{
+    display: flex;
+    position: relative;
+    width: 80%;
+    margin-bottom: 40px;
+}
+.profile-name{
+    margin-top: 15px;
+    margin-left: 140px;
+}
+img.lorem-ipsum{
+    width: 80px;
+    height: 80px;
+    padding: 4px;
+    background-color: #fff;
+    position: absolute;
+    top: -40px;
+    left: 34px;
+}
+.profile-name h2{
+    font-size: 16px;
+    margin-bottom: 4px;
+    font-family: 'Vesper Libre', serif;
+    font-style: italic;
+    font-weight: lighter;
+}
+.address{
+    display: flex;
+}
+.address p{
+    font-size: 10px;
+    margin-left: 0 5px;
+    margin-top: 2px;
+    font-family: 'Vesper Libre', serif;
+}
+.address-img{
+    width: 8px;
+    height: 10px;
+}
+.profile-text{
+    padding: 0 30px;
+    margin: auto;
+    margin-bottom: 40px;
+}
+.profile-text p{
+    font-size: 10px;
+    line-height: 12px;
+    font-family: "PT Sans", sans-serif;
+}
+.profile-sns{
+    padding: 0 40px;
+    margin-bottom: 25px;
+    padding-bottom: 20px;
+    border-bottom: solid 1px #fff;
+    display: flex;
+}
+.sns{
+    display: flex;
+}
+.sns p{
+    font-size: 10px;
+    color: #fff;
+    margin-top: 7px;
+    margin-left: 10px;
+    font-family: "PT Sans", sans-serif;
+}
+.Dribbble{
+    margin-left: 40px;
+}
+.sns-image{
+    width: 24px;
+    height: 24px;
+}
+/*skilbar*/
+.portfolio-skil{
+    padding: 0 40px;
+    margin: 0 auto;
+    padding-bottom: 40px;
+}
+.Myskills{
+    font-size: 18px;
+    margin-bottom: 20px;
+    margin-left: 4px;
+    font-family: 'Vesper Libre', serif;
+    font-weight: 300;
+}
+.skillbar-common{
+    display: flex;
+    margin-bottom: 8px;
+}
+.skillbar-common h3{
+    font-size: 18px;
+    font-weight: 300;
+}
+.skillbar-common .skillbar{
+    width: 200px;
+    height: 10px;
+    margin-left: 10px;
+    margin-top: 4px;
+    background-color: #e27878;
+}
+.count{
+    background-color: #282828;
+    height: 100%;
+}
+/*1Ps*/
+div.ps-count{
+    width: 55%;
+}
+/*Ai*/
+div.ai-count{
+    width: 80%;
+}
+/*Bs*/
+div.bs-count{
+    width: 30%;
+}
+/*Cs*/
+div.cs-count{
+    width: 93%;
+}
